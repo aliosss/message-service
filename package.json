@@ -1,0 +1,10 @@
+{
+  "name": "messages-api",
+  "version": "1.0.0",
+  "description": "Serverless messages API to send message to a recipient and keep track of messages.",
+  "author": "Ai Isik",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
