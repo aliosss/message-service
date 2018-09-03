@@ -65,4 +65,5 @@ curl https://j6o6nftw7d.execute-api.us-east-1.amazonaws.com/dev/messages/alicos@
 ```
 ## Notes
 
-If the AWS account is in SES sandbox, both sender and recipient emails have to verified to be able to send emails.
+- If the AWS account is in SES sandbox, both sender and recipient emails have to verified to be able to send emails.
+- Deployed version's POST api endpoint is configured with an authorizer which is authorized by using AWS Cognito User Pool. Alternatively, a lambda based authorization could be used which can use any custom authorization method.
